@@ -5,6 +5,10 @@ import streamlit as st
 
 try:
 
+    st.set_page_config(
+    page_title="Demo QnA Bot",
+    )
+
     st.title("Demo QnA Bot")
     st.subheader("Power Platform Licence Guide")
     st.write("Author: [Zhen Yuan](https://www.linkedin.com/in/walleyuan/)")
